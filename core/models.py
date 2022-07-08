@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-from statistics import mode
-=======
->>>>>>> a50de280d4c99ccbf43242a4e474e6463d76a91e
-from tabnanny import verbose
 from django.db import models
+from tabnanny import verbose
+from statistics import mode
 
 
 class Categoria(models.Model):
@@ -38,17 +35,9 @@ class Livro(models.Model):
     quantidade = models.IntegerField()
     preco = models.DecimalField(max_digits=7, decimal_places=2)
     categoria = models.ForeignKey(
-<<<<<<< HEAD
         Categoria, on_delete=models.PROTECT, related_name='livros')
     editora = models.ForeignKey(
         Editora, on_delete=models.PROTECT, related_name='livros')
-=======
-        Categoria, on_delete=models.PROTECT, related_name="livros"
-    )
-    editora = models.ForeignKey(
-        Editora, on_delete=models.PROTECT, related_name="livros"
-    )
->>>>>>> a50de280d4c99ccbf43242a4e474e6463d76a91e
 
     def __str__(self):
         return f'{self.titulo} ({self.quantidade})'
