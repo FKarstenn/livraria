@@ -1,4 +1,4 @@
-
+import os
 
 from pathlib import Path
 
@@ -10,7 +10,7 @@ SECRET_KEY = 'django-insecure-8rtfo4!d5waleb-!wbz-@dm40l0%vhrxa1+6^i2y88y8@e4iug
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 
@@ -22,7 +22,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'core',
-    "rest_framework",
+    'rest_framework',
+    'corsheaders'
 ]
 
 MIDDLEWARE = [
@@ -33,6 +34,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'livraria.urls'
@@ -96,3 +99,7 @@ STATIC_URL = 'static/'
 
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CORS_ALLOW_ALL_ORIGINS = True
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
