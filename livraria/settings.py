@@ -23,7 +23,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'core',
     'rest_framework',
-    'corsheaders'
+    'corsheaders',
+    "rest_framework_simplejwt",
 ]
 
 MIDDLEWARE = [
@@ -107,6 +108,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 REST_FRAMEWORK = {
          "DEFAULT_PERMISSION_CLASSES": [
         "rest_framework.permissions.DjangoModelPermissions",
-    ],
+         ],
     
 }
