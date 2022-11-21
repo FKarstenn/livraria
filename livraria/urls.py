@@ -13,7 +13,6 @@ from rest_framework.routers import DefaultRouter
 from core.views import CategoriaViewSet, EditoraViewSet, LivroViewSet, AutorViewSet
 
 
-path("api/media/", include(uploader_router.urls)),
 
 router = DefaultRouter()
 router.register(r'categorias', CategoriaViewSet)
@@ -26,6 +25,7 @@ urlpatterns = [
     path('', include(router.urls)),
     path("token/", TokenObtainPairView.as_view(), name="token_obtain_pair"),
     path("token/refresh/", TokenRefreshView.as_view(), name="token_refresh"),
+    path("api/media/", include(uploader_router.urls)),
 ]
 
 urlpatterns += static(settings.MEDIA_ENDPOINT, document_root=settings.MEDIA_ROOT)
