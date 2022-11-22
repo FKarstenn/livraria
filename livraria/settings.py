@@ -1,10 +1,13 @@
 import os
 from pathlib import Path
+import environ
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 SECRET_KEY = 'django-insecure-8rtfo4!d5waleb-!wbz-@dm40l0%vhrxa1+6^i2y88y8@e4iug'
+
+
 
 
 DEBUG = True
@@ -131,3 +134,7 @@ SPECTACULAR_SETTINGS = {
     "DESCRIPTION": "API para gerenciamento de livraria, incluindo endpoints e documentação.",
     "VERSION": "1.0.0",
 }
+
+env = environ.Env()
+environ.Env.read_env((os.path.join(BASE_DIR, '.env')))
+
