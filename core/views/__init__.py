@@ -1,4 +1,4 @@
 from .autor import AutorViewSet
-from .livro import LivroViewSet
-from .editora import EditoraViewSet
 from .categoria import CategoriaViewSet
+from .editora import EditoraViewSet
+from .livro import LivroViewSet
