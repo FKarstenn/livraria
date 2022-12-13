@@ -1,4 +1,3 @@
-['localhost', '"*"']
 [
 {
   "model": "core.autor",
@@ -3728,7 +3727,7 @@
   }
 },
 {
-  "model": "media.image",
+  "model": "uploader.image",
   "pk": 1,
   "fields": {
     "attachment_key": "18284d4d-c9e7-43ce-859d-3fd96fac339a",
@@ -3739,7 +3738,7 @@
   }
 },
 {
-  "model": "media.image",
+  "model": "uploader.image",
   "pk": 2,
   "fields": {
     "attachment_key": "71312fbc-7446-4763-83d5-cfa8feb940af",
@@ -3750,7 +3749,7 @@
   }
 },
 {
-  "model": "media.image",
+  "model": "uploader.image",
   "pk": 3,
   "fields": {
     "attachment_key": "e17599f7-bb32-4a7d-9346-06fb3c7e707d",
@@ -3761,7 +3760,7 @@
   }
 },
 {
-  "model": "media.image",
+  "model": "uploader.image",
   "pk": 4,
   "fields": {
     "attachment_key": "eabee81f-5293-49a1-9121-f0b66ca7c870",
@@ -3772,7 +3771,7 @@
   }
 },
 {
-  "model": "media.image",
+  "model": "uploader.image",
   "pk": 5,
   "fields": {
     "attachment_key": "04730722-1c75-4c19-8aa6-ba11b283ac30",
@@ -3783,7 +3782,7 @@
   }
 },
 {
-  "model": "media.image",
+  "model": "uploader.image",
   "pk": 6,
   "fields": {
     "attachment_key": "acbcd6da-9788-4f7a-a8c4-928d49c08bda",
@@ -3794,7 +3793,7 @@
   }
 },
 {
-  "model": "media.image",
+  "model": "uploader.image",
   "pk": 7,
   "fields": {
     "attachment_key": "2aaac910-d5d5-4c93-a845-43fcfcc29bde",
@@ -3805,7 +3804,7 @@
   }
 },
 {
-  "model": "media.image",
+  "model": "uploader.image",
   "pk": 8,
   "fields": {
     "attachment_key": "e0227aa0-257e-41d6-8fce-8fc26a582b70",
@@ -3816,7 +3815,7 @@
   }
 },
 {
-  "model": "media.image",
+  "model": "uploader.image",
   "pk": 9,
   "fields": {
     "attachment_key": "879a7ccd-8b1d-4304-8d40-34cfffb8d54e",
@@ -3827,7 +3826,7 @@
   }
 },
 {
-  "model": "media.image",
+  "model": "uploader.image",
   "pk": 10,
   "fields": {
     "attachment_key": "60f2500b-41c6-44b4-a8cd-2e764f06a2d7",
@@ -3838,7 +3837,7 @@
   }
 },
 {
-  "model": "media.image",
+  "model": "uploader.image",
   "pk": 11,
   "fields": {
     "attachment_key": "1598de8b-65bb-4755-a91c-a7535ee6b73e",
@@ -3849,7 +3848,7 @@
   }
 },
 {
-  "model": "media.image",
+  "model": "uploader.image",
   "pk": 12,
   "fields": {
     "attachment_key": "219ca135-1f2e-48b4-98a6-7e049079c8cc",
@@ -3860,7 +3859,7 @@
   }
 },
 {
-  "model": "media.image",
+  "model": "uploader.image",
   "pk": 13,
   "fields": {
     "attachment_key": "a2a21bdc-0f58-406b-b263-eb4912a2fdee",
@@ -3871,7 +3870,7 @@
   }
 },
 {
-  "model": "media.image",
+  "model": "uploader.image",
   "pk": 14,
   "fields": {
     "attachment_key": "ace1454a-c18c-4dea-a41b-94170fe55fd9",
@@ -3882,7 +3881,7 @@
   }
 },
 {
-  "model": "media.image",
+  "model": "uploader.image",
   "pk": 15,
   "fields": {
     "attachment_key": "aafd8dc1-6d3c-474f-b9d3-f8954a99fc15",
@@ -3893,7 +3892,7 @@
   }
 },
 {
-  "model": "media.image",
+  "model": "uploader.image",
   "pk": 16,
   "fields": {
     "attachment_key": "1aa915e9-61d1-4899-93d1-a049549d1173",
